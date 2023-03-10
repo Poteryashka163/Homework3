@@ -88,16 +88,40 @@ public class Main {
         int egs = 4;
         int egsVes = 70;
         int milkDoli = milk / 100;
-        int cocktailGramm = (banana*bananaVes)+(milkDoli * milkVes100)+(icecream*icecreamVes)+(egs*egsVes);
+        int cocktailGramm = (banana * bananaVes)+(milkDoli * milkVes100)+(icecream * icecreamVes)+(egs * egsVes);
         double cocktailKg = cocktailGramm / 1000;
         System.out.println("Вес спортзавтрака "+cocktailGramm+" грамм или "+cocktailKg+" кг.");
         System.out.println("");
     }
     public static void task7 () {
         System.out.println("        Решение задачи 7.    ");
+        int poxydanie250 = 250;
+        int poxydanie500 = 500;
+        int vesSbrosit = 7;
+        int vesSbrositKg = vesSbrosit * 1000;
+        int dnei250 = vesSbrositKg / poxydanie250;
+        int dnti500 = vesSbrositKg / poxydanie500;
+        int dneiSredni = (dnei250 + dnti500) / 2;
+        System.out.println(+dnei250+" дней понадобится на похудение, если терять по " +poxydanie250+" грамм день.");
+        System.out.println(+dnti500+" дней понадобится на похудение, если терять по " +poxydanie500+" грамм день.");
+        System.out.println(+dneiSredni+" дней в среднем понадобится для похудения.");
+        System.out.println("");
     }
     public static void task8 () {
         System.out.println("        Решение задачи 8.    ");
+        int payMasha = 67760;
+        int payDenis = 83690;
+        int payKristina = 76230;
+        int indexaciaMasha = ( payMasha / 100 ) * 10 + payMasha;
+        int indexaciaDenis = ( payDenis / 100) * 10 + payDenis;
+        int indexaciaKristina = ( payKristina / 100 ) * 10 + payKristina;
+        int raznicaZpMasha = ( indexaciaMasha * 12 ) - ( payMasha * 12 );
+        int raznicaZpDenis = ( indexaciaDenis * 12 ) - ( payDenis * 12 );
+        int raznicaZpKristina = ( indexaciaKristina * 12 ) - ( payKristina * 12 );
+        System.out.println("Маша теперь получает " +indexaciaMasha+ " рублей. Годовой доход вырос на " +payMasha+ " рублей.");
+        System.out.println("Денис теперь получает " +indexaciaDenis+ " рублей. Годовой доход вырос на " +payDenis+ " рублей.");
+        System.out.println("Кристина теперь получает " +indexaciaKristina+ " рублей. Годовой доход вырос на " +payKristina+ " рублей.");
+        System.out.println("");
     }
 
 
