@@ -13,7 +13,7 @@ public class Main {
         byte numberByte = -128;
         short numberShort = 128;
         int numbetInt = 32767;
-        long numberLong = 2147483600;
+        long numberLong = 2147483600L;
         float numberFloat = 3.423f;
         double numberDoble = 3.4;
         System.out.println("        Решение задачи 1.    ");
